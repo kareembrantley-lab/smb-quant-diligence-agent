@@ -1,0 +1,32 @@
+statement,raw_label,canonical_item,confidence,method,rationale,needs_review
+balance_sheet,A/P,accounts_payable,100.0,exact,Exact alias match.,False
+balance_sheet,A/R,accounts_receivable,100.0,exact,Exact alias match.,False
+balance_sheet,Accrued Payroll,accrued_liabilities,100.0,exact,Exact alias match.,False
+balance_sheet,Cash in Bank,cash,100.0,exact,Exact alias match.,False
+balance_sheet,Current Maturities of Long-Term Debt,current_portion_long_term_debt,100.0,exact,Exact alias match.,False
+balance_sheet,Equipment Net of Depreciation,ppe_net,100.0,exact,Exact alias match.,False
+balance_sheet,Finished Goods Inventory,inventory,100.0,exact,Exact alias match.,False
+balance_sheet,Intangible Assets,other_long_term_assets,100.0,exact,Exact alias match.,False
+balance_sheet,Member Distributions,owner_distributions,100.0,exact,Exact alias match.,False
+balance_sheet,Member Equity,equity,100.0,exact,Exact alias match.,False
+balance_sheet,Notes Payable Long Term,long_term_debt,100.0,exact,Exact alias match.,False
+balance_sheet,Prepaid Insurance,other_current_assets,100.0,exact,Exact alias match.,False
+balance_sheet,Sales Tax Payable,other_current_liabilities,100.0,exact,Exact alias match.,False
+customer_detail,All Other Customers (17),All Other Customers (17),100.0,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Alpine Fabrication Systems,Alpine Fabrication Systems,100.0,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Kestrel Aerostructures,Kestrel Aerostructures,100.0,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Redwood Industrial Supply,Redwood Industrial Supply,100.0,passthrough,"Customer identifier, not a line item.",False
+income_statement,Contract Labor,,53.8,unmapped,No confident match; excluded pending manual mapping. Closest guess: 'owner salary' (54/100).,True
+income_statement,Cost of Revenue,cogs,100.0,exact,Exact alias match.,False
+income_statement,Depreciation Expense,depreciation_amortization,100.0,exact,Exact alias match.,False
+income_statement,Interest Exp,interest_expense,100.0,exact,Exact alias match.,False
+income_statement,Interest Income,other_income,100.0,exact,Exact alias match.,False
+income_statement,Lease Expense,rent_occupancy,100.0,exact,Exact alias match.,False
+income_statement,Legal and Accounting,professional_fees,100.0,exact,Exact alias match.,False
+income_statement,Litigation Settlement,one_time_expense,100.0,exact,Exact alias match.,False
+income_statement,Office Expense,other_opex,100.0,exact,Exact alias match.,False
+income_statement,Owner's Compensation,owner_officer_comp,100.0,exact,Exact alias match.,False
+income_statement,Payroll Expense,salaries_wages,100.0,exact,Exact alias match.,False
+income_statement,Provision for Income Taxes,income_tax_expense,100.0,exact,Exact alias match.,False
+income_statement,Sales and Marketing,marketing_advertising,100.0,exact,Exact alias match.,False
+income_statement,Total Income,revenue,100.0,exact,Exact alias match.,False

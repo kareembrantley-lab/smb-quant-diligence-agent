@@ -1,0 +1,32 @@
+statement,raw_label,canonical_item,confidence,method,rationale,needs_review
+balance_sheet,Accounts Payable,accounts_payable,100.0,exact,Exact alias match.,False
+balance_sheet,Accrued Expenses,accrued_liabilities,100.0,exact,Exact alias match.,False
+balance_sheet,Cash and Cash Equivalents,cash,100.0,exact,Exact alias match.,False
+balance_sheet,Current Portion of Long-Term Debt,current_portion_long_term_debt,100.0,exact,Exact alias match.,False
+balance_sheet,Customer Deposits,other_current_liabilities,100.0,exact,Exact alias match.,False
+balance_sheet,Deposits,other_long_term_assets,100.0,exact,Exact alias match.,False
+balance_sheet,Fixed Assets Net,ppe_net,100.0,exact,Exact alias match.,False
+balance_sheet,Merchandise Inventory,inventory,100.0,exact,Exact alias match.,False
+balance_sheet,Owner Distributions,owner_distributions,100.0,exact,Exact alias match.,False
+balance_sheet,Owner's Equity,equity,100.0,exact,Exact alias match.,False
+balance_sheet,Prepaid Expenses,other_current_assets,100.0,exact,Exact alias match.,False
+balance_sheet,Term Loan Payable,long_term_debt,100.0,exact,Exact alias match.,False
+balance_sheet,Trade Receivables,accounts_receivable,100.0,exact,Exact alias match.,False
+customer_detail,All Other Customers (41),All Other Customers (41),100.0,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Cedar & Vine Restaurants,Cedar & Vine Restaurants,100.0,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Evergreen Bistro Group,Evergreen Bistro Group,100.0,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Northshore Food Co-op,Northshore Food Co-op,100.0,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Pacific Corner Markets,Pacific Corner Markets,100.0,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Riverside Grocers Inc,Riverside Grocers Inc,100.0,passthrough,"Customer identifier, not a line item.",False
+income_statement,Cost of Goods Sold,cogs,100.0,exact,Exact alias match.,False
+income_statement,Depreciation and Amortization,depreciation_amortization,100.0,exact,Exact alias match.,False
+income_statement,General and Administrative,other_opex,100.0,exact,Exact alias match.,False
+income_statement,Interest Expense,interest_expense,100.0,exact,Exact alias match.,False
+income_statement,Marketing and Advertising,marketing_advertising,100.0,exact,Exact alias match.,False
+income_statement,Net Sales,revenue,100.0,exact,Exact alias match.,False
+income_statement,Officer Compensation,owner_officer_comp,100.0,exact,Exact alias match.,False
+income_statement,Other Income,other_income,100.0,exact,Exact alias match.,False
+income_statement,Professional Fees,professional_fees,100.0,exact,Exact alias match.,False
+income_statement,Rent Expense,rent_occupancy,100.0,exact,Exact alias match.,False
+income_statement,Salaries and Wages,salaries_wages,100.0,exact,Exact alias match.,False
+income_statement,State Franchise Tax,,81.2,unmapped,No confident match; excluded pending manual mapping. Closest guess: 'franchise tax' (81/100).,True

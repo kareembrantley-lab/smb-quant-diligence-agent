@@ -1,0 +1,31 @@
+statement,raw_label,canonical_item,confidence,method,rationale,needs_review
+balance_sheet,Accrued Expenses,accrued_liabilities,100,exact,Exact alias match.,False
+balance_sheet,Cash,cash,100,exact,Exact alias match.,False
+balance_sheet,Current Portion of Long-Term Debt,current_portion_long_term_debt,100,exact,Exact alias match.,False
+balance_sheet,Deferred Revenue,other_current_liabilities,100,exact,Exact alias match.,False
+balance_sheet,Fixed Assets Net,ppe_net,100,exact,Exact alias match.,False
+balance_sheet,Goodwill,other_long_term_assets,100,exact,Exact alias match.,False
+balance_sheet,Inventory - Net,inventory,100,exact,Exact alias match.,False
+balance_sheet,Other Current Assets,other_current_assets,100,exact,Exact alias match.,False
+balance_sheet,SBA Loan Payable,long_term_debt,100,exact,Exact alias match.,False
+balance_sheet,Shareholder Distributions,owner_distributions,100,exact,Exact alias match.,False
+balance_sheet,Shareholder Equity,equity,100,exact,Exact alias match.,False
+balance_sheet,Trade Payables,accounts_payable,100,exact,Exact alias match.,False
+balance_sheet,Trade Receivables,accounts_receivable,100,exact,Exact alias match.,False
+customer_detail,All Other Customers (9),All Other Customers (9),100,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Bright Aisle Retail Group,Bright Aisle Retail Group,100,passthrough,"Customer identifier, not a line item.",False
+customer_detail,MetroCart Marketplace,MetroCart Marketplace,100,passthrough,"Customer identifier, not a line item.",False
+customer_detail,Trailhead Outfitters,Trailhead Outfitters,100,passthrough,"Customer identifier, not a line item.",False
+income_statement,Advertising,marketing_advertising,100,exact,Exact alias match.,False
+income_statement,Affiliate Management Fee,related_party_expense,100,exact,Exact alias match.,False
+income_statement,Amortization Expense,depreciation_amortization,100,exact,Exact alias match.,False
+income_statement,Consulting Fees,professional_fees,100,exact,Exact alias match.,False
+income_statement,Cost of Sales,cogs,100,exact,Exact alias match.,False
+income_statement,Franchise Tax,income_tax_expense,100,exact,Exact alias match.,False
+income_statement,Gross Sales,revenue,100,exact,Exact alias match.,False
+income_statement,Insurance Expense,other_opex,100,exact,Exact alias match.,False
+income_statement,Loan Interest,interest_expense,100,exact,Exact alias match.,False
+income_statement,Miscellaneous Income,other_income,100,exact,Exact alias match.,False
+income_statement,Occupancy Expense,rent_occupancy,100,exact,Exact alias match.,False
+income_statement,Owner Salary,owner_officer_comp,100,exact,Exact alias match.,False
+income_statement,Wages,salaries_wages,100,exact,Exact alias match.,False
